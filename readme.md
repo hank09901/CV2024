@@ -1,6 +1,6 @@
 <!-- This is a readme file for you to execute our code -->
 # Readme
-This is a readme file for you to execute our code.py
+This is a readme file for you to execute our final_code.py
 
 # 2024NTU Computer Vision Project-VIVOTEK
 
@@ -25,7 +25,7 @@ List the software and hardware requirements. For example:
 ### Directory Structure
 
 * Please put test videos parallel to the code.py as shown below.
-![file_structure](https://github.com/hank09901/CV2024/blob/main/image/file_srtructure.png)
+![file_structure](https://github.com/hank09901/CV2024/blob/main/image/file_structure.png)
 ### Using Virtual Environment-Anaconda
 
 
