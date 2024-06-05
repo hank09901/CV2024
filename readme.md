@@ -27,6 +27,7 @@ List the software and hardware requirements. For example:
 
 1. **Create new conda environment:**
    ```bash
+    conda env list
     conda create --name cv_final(you can choose the name you like) python=3.8.19
     conda activate cv_final(you can choose the name you like)
 2. **Using python-V to check the version of python**
