@@ -25,15 +25,18 @@ List the software and hardware requirements. For example:
 
 ### Using Virtual Environment-Anaconda
 
-1. **Create new conda environment:**
+1. **Go to correct directory**
+    ```bash
+     cd cv_final
+2. **Create new conda environment:**
    ```bash
     conda env list
     conda create --name cv_final(you can choose the name you like) python=3.8.19
     conda activate cv_final(you can choose the name you like)
-2. **Using python-V to check the version of python**
+3. **Using python-V to check the version of python**
    ```bash
     python -V
-3. **Install the required packages:**
+4. **Install the required packages:**
     ```bash
      conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
      pip install -r requirements.txt
@@ -41,13 +44,11 @@ List the software and hardware requirements. For example:
 * If torch cannot be installed, you should check out whether your cuda version is campatible with your torch version
 * Our cuda is 12.0 version
 
-4. **Go to correct directory**
-    ```bash
-     cd cv_final
+
 5. **Run the code:**
     ```bash
      
-     python3 algorithm_repeat_hank.py --weights crowdhuman_yolov5m.pt
+     python3 code.py --weights crowdhuman_yolov5m.pt
 6. **Get output.json in "./" directory**
 
 
