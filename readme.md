@@ -22,7 +22,10 @@ List the software and hardware requirements. For example:
 - (Any other specific requirements)
 
 ## Environment Setup
+### Directory Structure
 
+* Please put test videos parallel to the code.py as shown below.
+![file_structure](https://github.com/hank09901/CV2024/blob/main/image/file_srtructure.png)
 ### Using Virtual Environment-Anaconda
 
 
@@ -30,10 +33,6 @@ List the software and hardware requirements. For example:
 1. **Go to correct directory**
     ```bash
      cd cv_final
-     #### Directory Structure
-
-
-    ![file_structure](https://github.com/hank09901/CV2024/blob/main/image/file_srtructure.png)
 2. **Create new conda environment:**
    ```bash
     conda env list
