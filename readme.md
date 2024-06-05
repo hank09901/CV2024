@@ -25,17 +25,15 @@ List the software and hardware requirements. For example:
 
 ### Using Virtual Environment-Anaconda
 
-#### Directory Structure
-
-
-![file_structure](https://github.com/hank09901/CV2024/blob/main/image/file_srtructure.png)
-
-
 
 
 1. **Go to correct directory**
     ```bash
      cd cv_final
+     #### Directory Structure
+
+
+    ![file_structure](https://github.com/hank09901/CV2024/blob/main/image/file_srtructure.png)
 2. **Create new conda environment:**
    ```bash
     conda env list
