@@ -40,7 +40,7 @@ List the software and hardware requirements. For example:
     ```bash
      conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 
-if torch cannot be installed, you should check out whether your cuda version is campatible with your torch version
+* if torch cannot be installed, you should check out whether your cuda version is campatible with your torch ==version==
 
 4. **Go to correct directory**
     ```bash
