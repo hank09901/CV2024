@@ -53,7 +53,8 @@ List the software and hardware requirements. For example:
 5. **Run the code:**
     ```bash
      
-     python3 code.py --weights crowdhuman_yolov5m.pt
+     python3 final_code.py --weights crowdhuman_yolov5m.pt
+
 6. **Get output.json in "./" directory**
 
 
