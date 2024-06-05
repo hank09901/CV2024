@@ -12,10 +12,6 @@ Briefly describe the purpose of the project and what it does.
 
 1. [Prerequisites](#prerequisites)
 2. [Environment Setup](#environment-setup)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Contributing](#contributing)
-6. [License](#license)
 
 ## Prerequisites
 
@@ -39,8 +35,9 @@ List the software and hardware requirements. For example:
 3. **Install the required packages:**
     ```bash
      conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+     pip install -r requirements.txt
 
-* if torch cannot be installed, you should check out whether your cuda version is campatible with your torch ==version==
+* If torch cannot be installed, you should check out whether your cuda version is campatible with your torch version
 
 4. **Go to correct directory**
     ```bash
