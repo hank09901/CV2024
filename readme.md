@@ -59,7 +59,7 @@ List the software and hardware requirements. For example:
      
      python3 final_code.py --weights crowdhuman_yolov5m.pt
 * crowdhuman_yolov5m.pt is the checkpoint of yolov5 person/head pre-trained model 
-7. **Get output.json in "./" directory**
+7. **Get output.json in the "./B10901142" Directory**
 
 
 
