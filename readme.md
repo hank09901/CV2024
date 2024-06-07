@@ -54,7 +54,7 @@ List the software and hardware requirements. For example:
     ```bash
      
      python3 final_code.py --weights crowdhuman_yolov5m.pt
-
+* crowdhuman_yolov5m.pt is the checkpoint of yolov5 person/head pre-trained model 
 6. **Get output.json in "./" directory**
 
 
