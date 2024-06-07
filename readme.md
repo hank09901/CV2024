@@ -32,7 +32,7 @@ List the software and hardware requirements. For example:
 
 1. **Go to correct directory**
     ```bash
-     cd cv_final
+     cd B10901142
 2. **Create new conda environment:**
    ```bash
     conda env list
