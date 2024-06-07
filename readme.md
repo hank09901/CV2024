@@ -24,7 +24,7 @@ List the software and hardware requirements. For example:
 ## Environment Setup
 ### Directory Structure
 
-* Please put test videos parallel to the code.py as shown below.
+* Please put test videos parallel to the final_code.py as shown below.
 ![file_structure](https://github.com/hank09901/CV2024/blob/main/image/file_structure.png)
 ### Using Virtual Environment-Anaconda
 
