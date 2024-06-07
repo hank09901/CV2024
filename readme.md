@@ -33,15 +33,19 @@ List the software and hardware requirements. For example:
 1. **Go to correct directory**
     ```bash
      cd B10901142
-2. **Create new conda environment:**
+2. **Download Checkpoint of yolov5 person/head pretrained model**
+    ```bash
+     wget https://drive.google.com/file/d/16V7D0R6tyhW-2ia1juipeEsjgG0I7N-Z/view?usp=sharing
+* The checkpoint is crowdhuman_yolov5m.pt which should be put in the same directory as final_code.py as shown in "Directory Structure" above
+3. **Create new conda environment:**
    ```bash
     conda env list
     conda create --name cv_final(you can choose the name you like) python=3.8.19
     conda activate cv_final(you can choose the name you like)
-3. **Using python-V to check the version of python**
+4. **Using python-V to check the version of python**
    ```bash
     python -V
-4. **Install the required packages:**
+5. **Install the required packages:**
     ```bash
      conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
      pip install -r requirements.txt
@@ -50,12 +54,12 @@ List the software and hardware requirements. For example:
 * Our cuda is 12.0 version
 
 
-5. **Run the code:**
+6. **Run the code:**
     ```bash
      
      python3 final_code.py --weights crowdhuman_yolov5m.pt
 * crowdhuman_yolov5m.pt is the checkpoint of yolov5 person/head pre-trained model 
-6. **Get output.json in "./" directory**
+7. **Get output.json in "./" directory**
 
 
 
