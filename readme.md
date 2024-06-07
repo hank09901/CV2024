@@ -34,8 +34,8 @@ List the software and hardware requirements. For example:
     ```bash
      cd B10901142
 2. **Download Checkpoint of yolov5 person/head pretrained model from the following link below and put it in the "./B10901142" Directory**
-    ```bash
-     [crowdhuman_yolov5m.pt](<https://drive.google.com/file/d/16V7D0R6tyhW-2ia1juipeEsjgG0I7N-Z/view?usp=sharing>)
+    
+    [crowdhuman_yolov5m.pt](https://drive.google.com/file/d/16V7D0R6tyhW-2ia1juipeEsjgG0I7N-Z/view?usp=sharing)
 * The checkpoint is crowdhuman_yolov5m.pt which should be put in the same directory as final_code.py as shown in "Directory Structure" above
 3. **Create new conda environment:**
    ```bash
